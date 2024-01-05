@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top">
       <a href="/" class="navbar-brand">Water Drop</a>
       <ul class="navbar-nav mr-auto">
         <li class="active nav-item mr-2">
@@ -20,19 +20,22 @@
         <li class="nav-item mr-2">
           <a class="nav-link" href="/about">About</a>
         </li>
-      </ul>
-      <div>
+        <li class="nav-item mr-2 d-block d-md-none">
+            <a class="nav-link" href="/login">Sign In/Sign Up</a>
+        </li>
+    </ul>
+      <div class="d-none d-md-block">
         <p class="navbar-text my-auto mr-2">
           <i>great water delivered to your door steps</i>
         </p>
         <a href="/login">Sign In/Sign Up</a>
       </div>
     </nav>
-    <article class="container">
+    <article class="container mt-3">
       <!-- Callout -->
       <div class="row">
         <div class="col-12">
-          <section class="callout">
+          <section class="callout jumbotron text-center">
             <h1>The finest whiskeys delivered to your doorstep.</h1>
             <p class="lead">
               Sign up today to start receiving the world's best whiskeys every
@@ -41,10 +44,8 @@
             </p>
             <p><button class="btn btn-lg btn-success">Sign Up!</button></p>
             <p class="text-muted">
-              <small
-                >You must be over 18 to sign up to our service. Please drink
-                responsibly.</small
-              >
+              <small>You must be over 18 to sign up to our service. Please drink
+                responsibly.</small>
             </p>
           </section>
         </div>
